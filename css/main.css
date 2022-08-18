@@ -123,6 +123,7 @@ textarea {
    #home {
     background-color: #453E4F;
     padding-bottom: 72px;
+    padding-top: 60px;
    }
 
    header {
@@ -287,24 +288,45 @@ textarea {
 
    #about h2 {
     margin-left: 72px;
-    padding-top: 55px;
+    margin-top: 0;
    }
 
    #about p {
     color: #453E4F;
     font-size: 1.45em;
-    margin: 0 72px;
+    margin: 0 72px 72px;
    }
 
-   .about-image {
+   #about .container {
     display: flex;
     justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
    }
+
+   #about img {
+    border: 5px solid #FF9E9E;
+    width: 50%;
+    height: auto;
+   }
+
+   .about-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+
+   #about figure {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+
 
    /***** CONTACT *****/
 
    #contact {
-    min-height: 1400px;
+    min-height: 1000px;
     background-color: #453E4F;
     padding-top: 75px;
    }
@@ -317,21 +339,14 @@ textarea {
 
    .contact-statement p {
     color: #FFE8D6;
-    font-size: 1.45em;
-    margin: 0 72px 40px;
+    font-family: 'Domine', serif;
+    font-size: 1.75em;
+    margin: 0 72px 72px;
+    width: 65%;
    }
 
-   #contact img {
-    width: 85%;
-    height: auto;
-    border: #FFE8D6 solid 7px;
-    margin: 75px;
-   }
-
-   .contact-image {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+   #contact .email {
+    padding: 72px 0;
    }
 
    .email a {
@@ -359,7 +374,7 @@ textarea {
 
    nav {
     position: sticky;
-    bottom: 0;
+    top: 0;
     background-color: #FDD0D0;
    }
 
@@ -495,17 +510,6 @@ textarea {
     width: 75%;
   }
 
-/***** SKILLS *****/
-  #skills {
-    height: 930px;
-  }
-
-/***** ABOUT *****/
-  #about img {
-    width: 20%;
-    height: auto;
-  }
-
 }
 
 @media only screen and (min-width:1200px) {
@@ -545,30 +549,23 @@ textarea {
     flex-direction: row;
     flex-wrap: wrap;
     flex-basis: auto;
-
-
-/***** ABOUT *****/
-
-
-
-  #about .container {
-    display: flex;
-    justify-content: flex-start;
-    align-items: stretch;
-    flex-direction: row;
-    flex-wrap: wrap;
   }
 
 
-  #about article {
+  /***** ABOUT *****/
+
+  #about p {
+    font-size: 1.6em;
+  }
+
+  .about-div {
     width: 49%;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    flex-direction: row;
-    flex-wrap: wrap;
-    flex-basis: auto;
   }
+
+  #about img {
+    width: 55%;
+    height: auto;
+   }
 
   /***** CONTACT *****/
 
