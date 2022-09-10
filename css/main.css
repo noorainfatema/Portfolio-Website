@@ -153,7 +153,6 @@ textarea {
    /***** SKILLS *****/
     #skills {
       background-color: #453E4F;
-      padding-bottom: 64px;
     }
 
     #skills h2 {
@@ -188,6 +187,16 @@ textarea {
     }
 
    #flexbox {
+    background-color: #E8EFF7;
+    border-radius: 50px;
+    height: 96px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+
+   #javascript {
     background-color: #E8EFF7;
     border-radius: 50px;
     height: 96px;
@@ -279,6 +288,12 @@ textarea {
     margin: 0 72px 80px;
    }
 
+   .project-link:hover {
+    background-color: #CAC4D1;
+    color: #453E4F;
+   }
+
+
    /***** ABOUT *****/
 
    #about {
@@ -345,6 +360,14 @@ textarea {
     width: 65%;
    }
 
+   #contact h3 {
+    color: #FF9E9E;
+    font-family: 'Domine', serif;
+    font-size: 1.75em;
+    margin: 0 72px ;
+    padding-bottom: 36px;
+   }
+
    #contact .email {
     padding: 72px 0;
    }
@@ -358,12 +381,14 @@ textarea {
    .social-icons {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: flex-start;
+    margin-left: 32px;
    }
   
    .social-icons p {
     font-size: 2.25em;
     margin: 40px;
+    margin-top: 6px;
    }
 
    .social-icons a {
@@ -401,6 +426,12 @@ textarea {
     color: #453E4F;
     text-decoration: none;
     font-size: 1.35em;
+   }
+
+   nav .container ul li a:hover {
+    background-color: #FF9E9E;
+    border-radius: 50px;
+    color: #FFE8D6;
    }
 
    nav .container ul li.active {
@@ -532,6 +563,10 @@ textarea {
 
   /***** PROJECTS *****/
 
+  #projects {
+    padding: 72px 0;
+  }
+
 
   #projects .container {
     display: flex;
@@ -549,6 +584,19 @@ textarea {
     flex-direction: row;
     flex-wrap: wrap;
     flex-basis: auto;
+  }
+
+  #projects p {
+    margin: 5px;
+    padding: 0;
+  }
+
+  .project-description {
+    padding-top: 130px;
+  }
+
+  .project-link {
+    margin: 20px;
   }
 
 
