@@ -306,10 +306,18 @@ textarea {
     margin-top: 0;
    }
 
+   #about h3 {
+    color: #453E4F;
+    font-family: 'Domine', serif;
+    font-size: 1.75em;
+    margin: 72px;
+    width: 65%;
+   }
+
    #about p {
     color: #453E4F;
     font-size: 1.45em;
-    margin: 0 72px 72px;
+    margin: 72px;
    }
 
    #about .container {
@@ -329,6 +337,13 @@ textarea {
     display: flex;
     justify-content: center;
     align-items: center;
+   }
+
+   .bio {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
    }
 
    #about figure {
@@ -395,6 +410,14 @@ textarea {
     color: #FFE8D6;
    }
 
+   .copyright {
+    color: #FFE8D6;
+    padding-bottom: 72px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   }
+
    /***** NAV *****/
 
    nav {
@@ -437,7 +460,7 @@ textarea {
    nav .container ul li.active {
     background-color: #FF9E9E;
     border-radius: 50px;
-    transition: 0.3 ease background-color;
+    transition: 0.3s ease background-color;
    }
 
    nav .container ul li.active a {
@@ -610,6 +633,10 @@ textarea {
     width: 49%;
   }
 
+  #about h3 {
+    width: 55%;
+  }
+
   #about img {
     width: 55%;
     height: auto;
@@ -626,6 +653,7 @@ textarea {
 
   .contact-statement p {
     font-size: 1.8em;
+    width: 55%;
   }
 
   #contact .container {
