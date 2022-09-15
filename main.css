@@ -186,6 +186,15 @@ textarea {
     margin: 72px;
     }
 
+   #flexbox {
+    background-color: #E8EFF7;
+    border-radius: 50px;
+    height: 96px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
 
    #javascript {
     background-color: #E8EFF7;
