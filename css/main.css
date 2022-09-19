@@ -186,7 +186,6 @@ textarea {
     margin: 72px;
     }
 
-
    #javascript {
     background-color: #E8EFF7;
     border-radius: 50px;
@@ -197,6 +196,35 @@ textarea {
     align-items: center;
    }
 
+   #ftp {
+    background-color: #E8EFF7;
+    border-radius: 50px;
+    height: 96px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+
+   #version-control {
+    background-color: #E8EFF7;
+    border-radius: 50px;
+    height: 96px;
+    width: 425px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+
+   #media-queries {
+    background-color: #E8EFF7;
+    border-radius: 50px;
+    height: 96px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
    /***** TECH STACK *****/
    .tech-stack p {
     background-color: #E8EFF7;
@@ -217,6 +245,16 @@ textarea {
     flex-wrap: wrap;
     justify-content: left;
     margin: 72px;
+   }
+
+   #chrome {
+    background-color: #E8EFF7;
+    border-radius: 50px;
+    height: 96px;
+    width: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
    }
 
    #adobe {
