@@ -225,6 +225,17 @@ textarea {
     justify-content: center;
     align-items: center;
    }
+
+   #flexbox {
+    background-color: #E8EFF7;
+    border-radius: 50px;
+    height: 96px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+
    /***** TECH STACK *****/
    .tech-stack p {
     background-color: #E8EFF7;
@@ -456,7 +467,7 @@ textarea {
    }
 
    nav .container {
-    width: 90%;
+    width: 100%;
     max-width: 667px;
     margin: 0 auto;
     text-align: center;
@@ -477,7 +488,7 @@ textarea {
     padding: 10px 20px;
     color: #453E4F;
     text-decoration: none;
-    font-size: 1.35em;
+    font-size: 1.04em;
    }
 
    nav .container ul li a:hover {
@@ -606,11 +617,11 @@ textarea {
 
   /***** SKILLS *****/
   .languages {
-    width: 45%;
+    width: 75%;
   }
   
   .tech-stack {
-    width: 45%;
+    width: 75%;
   }
 
   /***** PROJECTS *****/
