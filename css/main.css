@@ -109,13 +109,14 @@ textarea {
     font-size: 1.75em;
     font-family: 'Roboto', sans-serif;
     text-align: left;
+    background-color: #453E4F;
    }
 
    h2 {
     color:#FF9E9E;
     font-family: 'Domine', serif;
     font-size: 2.25em;
-    margin: 64px;
+    padding: 64px;
    }
 
    /***** HEADER *****/
@@ -150,13 +151,16 @@ textarea {
     margin-left: 72px;
    }
 
+
    /***** SKILLS *****/
     #skills {
       background-color: #453E4F;
+      padding-top: 72px;
     }
 
     #skills h2 {
       color: #FFE8D6;
+
     }
 
     #skills h3 {
@@ -183,7 +187,7 @@ textarea {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: left;
-    margin: 72px;
+    padding: 0 72px 72px;
     }
 
    #javascript {
@@ -255,7 +259,7 @@ textarea {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: left;
-    margin: 72px;
+    padding: 0 72px 72px;
    }
 
    #chrome {
@@ -287,7 +291,6 @@ textarea {
 
    #projects h2 {
     color: #453E4F;
-    margin-top: 0;
    }
 
    #projects h3 {
@@ -339,11 +342,6 @@ textarea {
    #about {
     background-color: #FFE8D6;
     padding: 75px 0;
-   }
-
-   #about h2 {
-    margin-left: 72px;
-    margin-top: 0;
    }
 
    #about h3 {
@@ -403,8 +401,6 @@ textarea {
 
    #contact h2 {
     color: #FF9E9E;
-    margin: 0 72px 72px 72px;
-    padding-top: 55px;
    }
 
    .contact-statement p {
