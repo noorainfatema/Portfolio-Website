@@ -344,6 +344,10 @@ textarea {
     padding: 75px 0;
    }
 
+   #about h2 {
+    color: #453E4F;
+   }
+
    #about h3 {
     color: #453E4F;
     font-family: 'Domine', serif;
@@ -490,7 +494,7 @@ textarea {
    nav .container ul li a:hover {
     background-color: #FF9E9E;
     border-radius: 50px;
-    color: #FFE8D6;
+    color: #453E4F;
    }
 
    nav .container ul li.active {
@@ -500,7 +504,7 @@ textarea {
    }
 
    nav .container ul li.active a {
-    color: #FFE8D6;
+    color: #453E4F;
    }
   
 
