@@ -313,7 +313,7 @@ textarea {
     height: auto;
    }
 
-   .project-image {
+   .project-image a {
     display: flex;
     justify-content: center;
    }
@@ -656,6 +656,13 @@ textarea {
 
   .project-description {
     padding-top: 130px;
+    width: 45%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-basis: auto;
   }
 
   .project-link {
