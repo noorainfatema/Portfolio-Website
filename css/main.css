@@ -709,14 +709,14 @@ textarea {
 }
 
 #projects .image__overlay a {
-  font-size: 2.5em;
+  font-size: 2em;
   font-weight: 700;
   background-color: #453E4F;
   border-radius: 50px;
   color: #FFE8D6;
   text-decoration: none;
   height: 96px;
-  width: 550px;
+  width: 475px;
   display: flex;
   justify-content: center;
   align-items: center;
