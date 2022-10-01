@@ -614,14 +614,15 @@ textarea {
 
 @media only screen and (min-width:1200px) {
 
-  /***** HOME *****/
 
+  /***** HOME *****/
 
   header h2 {
     width: 65%;
   }
 
   /***** SKILLS *****/
+
   .languages {
     width: 75%;
   }
@@ -633,7 +634,7 @@ textarea {
   /***** PROJECTS *****/
 
   #projects {
-    padding: 72px 0;
+    padding: 72px 100px;
   }
 
 
@@ -730,6 +731,11 @@ textarea {
 
   /***** ABOUT *****/
 
+  #about {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+
   #about p {
     font-size: 1.6em;
   }
@@ -748,7 +754,6 @@ textarea {
    }
 
   /***** CONTACT *****/
-
 
   #contact img {
     width: 60%;
